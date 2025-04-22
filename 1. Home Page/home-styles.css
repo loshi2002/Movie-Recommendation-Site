@@ -192,6 +192,12 @@
     grid-gap:1rem;
 }
 
+.genre-container a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .genre{
     border: 1px solid white;
     border-radius: 10px;
@@ -203,7 +209,7 @@
     font-size: 72px;
     font-weight: bold;
     font-family: Big Shoulders Stencil;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;  
 }
 
 
@@ -302,6 +308,12 @@
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2.5rem; 
+}
+
+.site-container a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 .site{
